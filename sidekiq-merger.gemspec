@@ -31,7 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rubocop", "~> 0.47"
   spec.add_development_dependency "coveralls", "~> 0.8"
 
-  spec.add_runtime_dependency "sidekiq", ">= 3.4", "< 5"
+  spec.add_runtime_dependency "sidekiq", ">= 3.4", "< 6"
   spec.add_runtime_dependency "concurrent-ruby", "~> 1.0"
   spec.add_runtime_dependency "activesupport", ">= 3.2", "< 6"
 end
